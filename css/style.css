@@ -1,0 +1,287 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Estilos del body*/
+.bodyHome{
+    background-color: #d1b5a2;
+    
+}
+/*Estilo del header*/
+.headerHome{
+    background-color: #CEAB93;
+}
+/*Estilos del tituloHome*/
+.tituloHome{
+    background-color: #E3CAA5;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+/*Estilos del menu*/
+.menu{
+    background-color: #FFFBE9;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+/*Estilos de los li*/
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.menu ul li a:hover{
+    color: rgb(226, 198, 198);
+    font-weight: bold;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+}
+/*Hover*/
+.menu ul li:hover > ul{
+    display: block;
+    background-color: antiquewhite;
+}
+/*Estilos de los a*/
+.menu ul li a{
+    color: rgb(3, 2, 1);
+}
+/*estilos del submenu*/
+.sub-menu{
+    background-color: beige;
+    padding: 10px;
+}
+/*Estilos del parrafoUno*/
+.parrafoUno{
+    text-align: center;
+    font-size: 20px;
+}
+/*Estilos de la imagen*/
+.imgHome{
+    text-align: center;
+}
+/*Estilos del subtitulo*/
+.subtituloHome{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    font-weight: 3px;
+}
+/*Estilos del parrafoDos*/
+.parrafoDos{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 10px;
+    margin: 10px;
+}
+
+/* Estilos del footer*/
+footer h4, h3 {
+    text-align: center;
+    margin: 50px;
+}
+
+/*Estilos de PRODUCTOS*/
+
+/*estilo del body*/
+
+.bodyProductos{
+    background-color: #F7E9D7;
+}
+
+/*Estilos del tituloProductos*/
+
+.tituloProductos{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+/*Estilos del parrafoTres*/
+.parrafoTres{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+/*Estilos de la tablaUno*/
+.tablaUno{
+    text-decoration: underline;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+/*Estilos de la tablaDos*/
+.tablaDos{
+    text-decoration: underline;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+/*Estilos talbaTres*/
+.tablaTres{
+    text-decoration: underline;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+/*Estilos locales*/
+
+/*Estilo bodyLocales*/
+.bodyLocales{
+    background-color: #FFE6EB;
+}
+
+/*Estilos headerLocales*/
+
+.headerLocales{
+    background-color: #f1abc7;
+}
+
+
+/*Estilos de tituloLocales*/
+
+.tituloLocales{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 50px;
+}
+
+/*Estilos parrafoCuatro*/
+.parrafoCuatro{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/*Estilos subtituloLocales*/
+
+.subtituloLocales{
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/*Estilos parrafoCinco*/
+.parrafoCinco{
+    font-size: 20px;
+}
+
+/*Estilos parrafoSeis*/
+
+.parrafoSeis{
+    font-size: 20px;
+}
+
+
+/*Estilos Campañas*/
+
+/*Estilos del bodyCamp*/
+
+ .bodyCamp{
+     background-color: #cce999;
+ }
+
+/*Estilos del headerCamp*/
+
+ .headerCamp{
+  background-color: #e4f5c7;
+ }
+
+/*Estilos del tituloCamp*/
+
+ .tituloCamp{
+     text-align: center;
+     font-size: 50px;
+     text-decoration: underline;
+     padding: 20px;
+ }
+
+/*Estilos del parrafoSiete*/
+
+ .parrafoSiete{
+     text-align: center;
+     font-size: 25px;
+     margin: 20px;
+ }
+
+/*Estilos del subtituloCamp*/
+.subtituloCamp{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+/*Estilos de campUno*/
+.campUno{
+    text-align: center;
+}
+
+/*Estilos campDos*/
+.campDos{
+    text-align: left;
+}
+
+/*Estilos campTres*/
+.campTres{
+    text-align: right;
+}
+
+/*Estilos de contactos*/
+
+/*Estilos de bodyContactos*/
+
+.bodyContacto{
+    background-color: #56BBF1;
+}
+
+/*Estilos del headerContacto*/
+.headerContacto{
+    background-color: #479fce;
+}
+
+/*Estilos del tituloContacto*/
+.tituloContacto{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    padding: 15px;
+}
+
+/*Estilos del subtituloContacto*/
+.subtituloUno{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+/*Estilos del subtituloDos*/
+.subtituloDos{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/*Estilos del parrafoOcho*/
+.parrafoOcho{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
